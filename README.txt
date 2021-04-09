@@ -47,4 +47,21 @@ docker rm dreamy_maxwell     |   удалить контейнер dreamy_maxwel
 =============================
 docker rm $(docker ps -aq)   |   удалить все контейнеры
 =============================
+docker images                |   see load container
+=============================
+docker rmi $(docker images -q) | dell all image
+=============================
+docker images a              | see images
+=============================
+docker run -it alpine sh     |  start in console shell
+=============================
+ls                           | see folder
+=============================
+apk add bash                 | add package menager
+=============================
+bash                         | in to bash
+----
+bash-5.1# 
+=============================
+
 
