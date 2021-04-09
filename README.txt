@@ -96,6 +96,7 @@ sudo service postgresql stop
 lsof -i :5432
 --------------------------
 docker exec -it pg bash  | in settings container pg
+docker attach focused_haslett
 
 ==========================
 
