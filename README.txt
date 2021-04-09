@@ -12,7 +12,7 @@ $ docker run hello-world
 
 $ reboot
 
-============================================================================
+==============================
 docker pull ubuntu
 ------------------
 Using default tag: latest
@@ -23,20 +23,22 @@ c4394a92d1f8: Pull complete
 Digest: sha256:3c9c713e0979e9bd6061ed52ac1e9e1f246c9495aa063619d9d695fb8039aa1f
 Status: Downloaded newer image for ubuntu:latest
 docker.io/library/ubuntu:latest
-============================================================================
+=============================
 docker images
 -------------
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 ubuntu              latest              26b77e58432b        6 days ago          72.9MB
 hello-world         latest              d1165f221234        4 weeks ago         13.3kB
-============================================================================
+=============================
 docker run -it ubuntu
 ---------------------
 root@23a473346b10:/#
-============================================================================
+=============================
 root@23a473346b10:/# ls
                      --
 bin   dev  home  lib32  libx32  mnt  proc  run   srv  tmp  var
 boot  etc  lib   lib64  media   opt  root  sbin  sys  usr
-============================================================================
+=============================
+root@23a473346b10:/# exit
+=============================
 
