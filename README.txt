@@ -1,3 +1,6 @@
+https://docs.docker.com/engine/install/linux-postinstall/
+https://hub.docker.com/search/?q&type=image
+
 # Docker
 Создайте группу докеров, если она не существует
 $ sudo groupadd docker
@@ -69,9 +72,11 @@ exit
 ====
 docker ps
 ========
-docker stop container_name
+docker stop container_name | stop container
 ==========================
-docker start container_name
+docker start container_name | stop container
+==========================
+docker run -d --name pg postgres | start backgraund postgres name : pg
 ==========================
 
 
