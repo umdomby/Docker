@@ -30,7 +30,7 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 ubuntu              latest              26b77e58432b        6 days ago          72.9MB
 hello-world         latest              d1165f221234        4 weeks ago         13.3kB
 =============================
-docker run -it ubuntu
+docker run -it ubuntu        |   докер
 ---------------------
 root@23a473346b10:/#
 =============================
@@ -40,5 +40,11 @@ bin   dev  home  lib32  libx32  mnt  proc  run   srv  tmp  var
 boot  etc  lib   lib64  media   opt  root  sbin  sys  usr
 =============================
 root@23a473346b10:/# exit
+=============================
+docker ps -a                 |   посмотреть контейнеры
+=============================
+docker rm dreamy_maxwell     |   удалить контейнер dreamy_maxwell
+=============================
+docker rm $(docker ps -aq)   |   удалить все контейнеры
 =============================
 
