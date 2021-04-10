@@ -1,1 +1,5 @@
 docker run -it --name node-dru alpine sh
+
+apk add nodejs
+
+docker container ls -a
