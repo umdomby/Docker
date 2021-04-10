@@ -3,3 +3,19 @@ docker run -it --name node-dru alpine sh
 apk add nodejs
 
 docker container ls -a
+
+https://docs.docker.com/engine/reference/commandline/commit/
+
+docker login: navatar + password
+
+docker images
+
+docker commit node-dru navatar/node-dru
+
+docker push navatar/node-dru
+
+docker rmi dd87c5ef842e
+
+docker pull navatar/node-dru
+
+
