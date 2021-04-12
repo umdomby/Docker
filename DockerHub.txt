@@ -18,4 +18,6 @@ docker rmi dd87c5ef842e
 
 docker pull navatar/node-dru
 
+docker build -t navatar/name_images -f Dockerfile
+
 
