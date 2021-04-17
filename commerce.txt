@@ -1,3 +1,5 @@
 
+docker-compose up
+
 docker stop $(docker ps -a -q)
 docker start $(docker ps -a -q)
